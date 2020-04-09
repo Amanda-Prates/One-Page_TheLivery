@@ -1,0 +1,79 @@
+
+#destaque1 {
+  position: relative;
+}
+@media (max-width: 767px) {
+  #destaque1 {
+    border-color: transparent;
+  }
+}
+#destaque1 .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+.MS-content img{
+  width: 200px;
+  height: 200px;
+}
+@media (max-width: 767px) {
+  #destaque1 .MS-content {
+    margin: 0;
+  }
+}
+#destaque1 .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  border-right: none;
+  width: 20%;
+  background-color:#FFA07A;
+  padding: 7px;
+  border: 2px solid red;
+  border-radius: 15px 15px 15px 15px;
+  position: relative;
+  width: 270px;
+  height: 270px;
+
+}
+
+.item:hover
+{
+    box-shadow: inset 0 0 160px #FF6347;
+    border-radius: 5px 5px 5px 5px;
+}
+}
+#destaque1 .MS-content .item p {
+  vertical-align: center;
+  margin: 0;
+  width: 270px;
+  height: 270px;
+}
+#destaque1 .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 35px;
+}
+@media (max-width: 767px) {
+  #destaque1 .MS-controls button {
+    display: none;
+  }
+}
+#destaque1 .MS-controls button:hover {
+  cursor: pointer;
+}
+#destaque1 .MS-controls .MS-left {
+  margin-top: 90px;
+  left: 10px;
+}
+#destaque1 .MS-controls .MS-right {
+  right: 10px;
+  margin-top: 90px;
+
+}
